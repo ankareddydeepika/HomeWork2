@@ -4,98 +4,89 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <!-- We need the following responsive meta tag to ensure things scale correctly across varying
+    <meta charset="UTF-8">
+    <!-- We need the following responsive meta tag to ensure things scale correctly across varying
   devices. -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>My First Website</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <!-- We need to bring in the bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
+    <title>My First Website</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 </head>
 
 <body>
 
-  <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand mb-0 h1">Deepika Ankareddi</a>
+    <!-- NavBar (copied and pasted from WC3) -->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1">Deepika Ankareddi</a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-        </li>
-      <ul>
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <ul>
+        </div>
+    </nav>
 
-  <!-- Main Body goes in Container -->
-  <div class="container">
-    <div class="row">
-       <div class="col-sm-12">
-           <h1>
-            Portfolio
-           </h1> 
-       </div>     
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-          <img src="./assets/images/Informatica-Consulting.jpg" alt="..." class="img-thumbnail">
+    <!-- Main Body goes in Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>
+                    Portfolio
+                </h1>
+            </div>
         </div>
-        <div class="col-sm-6">
-            <img src="./assets/images/Engineering-Services.jpg" alt="..." class="img-thumbnail"> 
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="./assets/images/Informatica-Consulting.jpg" alt="..." class="mx-auto d-block">
+                    
+            </div>
+            <div class="col-sm-6">
+                <img src="./assets/images/Engineering-Services.jpg" alt="..." class="mx-auto d-block" >
+            </div>
         </div>
-     </div>
-    
-        
-     <div class="row">
-         <div class="col-sm-6">
-           <img src="./assets/images/Enterprise-Mobility.jpg" alt="..." class="img-thumbnail">
-         </div>
-         <div class="col-sm-6">
-             <img src="./assets/images/Code_Refactor.JPG" alt="..." class="img-thumbnail"> 
-         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="./assets/images/Day_planner.jfif" alt="..." class="img-thumbnail">
-        </div>
-        <div class="col-sm-6">
-            <img src="./assets/images/Weather_dashboard.jfif" alt="..." class="img-thumbnail"> 
-        </div>
-     </div>
-    
-    
-  <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="./assets/images/Enterprise-Mobility.jpg" alt="..." class="mx-auto d-block" >
+                    </div>
+                <div class="col-sm-6">
+                    <img src="./assets/images/Code_Refactor.JPG" alt="..." class="mx-auto d-block" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="./assets/images/Day_planner.jfif" alt="..." class="mx-auto d-block" >
+                </div>
+                <div class="col-sm-6">
+                    <img src="./assets/images/Weather_dashboard.jfif" alt="..." class="mx-auto d-block" >
+                </div>
+            </div>
+
+
+            <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
     For now, this is code to copy and paste. We'll get to script elements soon enough. -->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
