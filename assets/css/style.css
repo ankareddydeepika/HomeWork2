@@ -1,0 +1,22 @@
+.container {
+  background:lightgrey;
+  border-color: black;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+textarea {
+  width: 70%;
+  height: 150px;
+  padding: 8px 8px;
+  box-sizing: border-box;   
+  resize: none;
+}
+input[type=text], select {
+  width: 70%;
+  padding: 8px 8px;
+  margin-bottom: 20px;
+  display: inline-block;    
+  box-sizing: border-box;
+}
